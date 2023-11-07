@@ -2,6 +2,7 @@
 if (isset($_POST['text_input'])) {
     $text = $_POST['text_input'];
     $totaltime = strlen($text) * 0.25;
+    $totaltime = ceil($totaltime);
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +38,7 @@ if (isset($_POST['text_input'])) {
     <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 <body>
-    <h1>Please enter text in the input form.</h1>";
+    <h1 style='color : white'>Please enter text in the input form.</h1>";
     }
     ?>
 </body>
