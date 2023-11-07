@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Transition Input</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        label, input[type="text"] {
+            font-size: 1.5rem;
+        }
+
+        input[type="submit"] {
+            font-size: 1.5rem;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="result.php" method="post">
+        <label for="text_input">Enter Text:</label>
+        <input type="text" id="text_input" name="text_input">
+        <br><br>
+        <center>
+            <input type="submit" value="Generate Text Transition">
+        </center>
+    </form>
+</body>
+</html>
